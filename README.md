@@ -1,6 +1,21 @@
+<div align="center">
+
 # Marco Rubino
 
 **Software Developer | WordPress & WooCommerce Engineering**
+
+Building practical web solutions, investigating technical issues, and developing maintainable tools.
+
+[Portfolio](https://marcodeveloper.online) · [GitHub](https://github.com/marco-developer-24)
+
+<p>
+  <img src="https://img.shields.io/badge/WordPress-Engineering-21759B?logo=wordpress&logoColor=white" alt="WordPress Engineering" />
+  <img src="https://img.shields.io/badge/WooCommerce-Development-96588A?logo=woocommerce&logoColor=white" alt="WooCommerce Development" />
+  <img src="https://img.shields.io/badge/PHP-Backend-777BB4?logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Python-Developing-3776AB?logo=python&logoColor=white" alt="Python in active development" />
+</p>
+
+</div>
 
 I build and troubleshoot web solutions, with a practical focus on WordPress, WooCommerce, PHP, and integrations.
 
@@ -8,7 +23,6 @@ I have **7+ years of hands-on experience with WordPress**, working on custom fun
 
 My approach is evidence-driven: understand the behavior, isolate the source, make a controlled change, and verify the result.
 
-[Portfolio](https://marcodeveloper.online) · [GitHub repositories](https://github.com/marco-developer-24)
 
 ---
 
