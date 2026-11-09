@@ -72,9 +72,9 @@ A Python toolkit for validating supplier CSV files, comparing catalog data, iden
 - Includes a first local Streamlit interface.
 - **Status:** Early development. It does not connect to WooCommerce or perform imports.
 
-### [Schefferlii Language Redirector](https://github.com/marco-developer-24/wp-language-redirector)
+### [WP Language Redirector](https://github.com/marco-developer-24/wp-language-redirector)
 
-A WordPress plugin developed for a specific multilingual integration using WP Multilang-compatible language selectors.
+A WordPress plugin for a specific multilingual integration using WP Multilang-compatible language selectors.
 
 - Resolves destination URLs through manual mappings and available WP Multilang helpers.
 - Provides an administration screen for managing mappings.
