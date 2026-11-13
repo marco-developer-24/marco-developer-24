@@ -1,128 +1,101 @@
-<div align="center">
-
 # Marco Rubino
 
-**Software Developer | WordPress & WooCommerce Engineering**
+**WordPress & WooCommerce Engineering · Plugins · Developer Tooling**
 
-Building practical web solutions, investigating technical issues, and developing maintainable tools.
+A workspace for software projects, WordPress extensions, and tools built around practical development and technical problem-solving.
 
-[Portfolio](https://marcodeveloper.online) · [GitHub](https://github.com/marco-developer-24)
+[Professional profile](https://github.com/marcorubino-dev) · [Portfolio](https://marcodeveloper.online)
 
 <p>
-  <img src="https://img.shields.io/badge/WordPress-Engineering-21759B?logo=wordpress&logoColor=white" alt="WordPress Engineering" />
-  <img src="https://img.shields.io/badge/WooCommerce-Development-96588A?logo=woocommerce&logoColor=white" alt="WooCommerce Development" />
+  <img src="https://img.shields.io/badge/WordPress-Engineering-21759B?logo=wordpress&logoColor=white" alt="WordPress engineering" />
+  <img src="https://img.shields.io/badge/WooCommerce-Development-96588A?logo=woocommerce&logoColor=white" alt="WooCommerce development" />
   <img src="https://img.shields.io/badge/PHP-Backend-777BB4?logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Python-Developing-3776AB?logo=python&logoColor=white" alt="Python in active development" />
+  <img src="https://img.shields.io/badge/Python-Active%20learning-3776AB?logo=python&logoColor=white" alt="Python active learning" />
 </p>
 
-</div>
+I bring **7+ years of hands-on WordPress experience** to the development of plugins, integrations, and practical tools. This account focuses on the engineering side of that work: implementation, architecture, testing, data handling, and maintainability.
 
-I build and troubleshoot web solutions, with a practical focus on WordPress, WooCommerce, PHP, and integrations.
+Python and broader backend engineering are areas I am actively developing. I distinguish established WordPress experience from technologies and practices I am currently deepening.
 
-I have **7+ years of hands-on experience with WordPress**, working on custom functionality, technical support, plugin and theme ecosystems, and the investigation of production issues. I am also expanding my software development practice through Python, application architecture, testing, and automation.
+## Engineering focus
 
-My approach is evidence-driven: understand the behavior, isolate the source, make a controlled change, and verify the result.
-
-
----
-
-## Profile
-
-My work sits at the intersection of web development and technical problem-solving.
-
-- **WordPress development:** custom functionality, hooks, APIs, plugins, themes, and content models.
-- **WooCommerce:** catalog behavior, product data, checkout flows, integrations, and troubleshooting.
-- **Technical support:** investigating errors, compatibility issues, configuration problems, and unexpected behavior.
-- **Software development:** building small, focused tools with clear responsibilities, testable behavior, and documented limitations.
-
-I collaborate with agencies and direct clients, including white-label technical support when a project needs an additional developer.
-
-## Core technologies
-
-| Area | Technologies and tools |
-| --- | --- |
-| CMS and commerce | WordPress, WooCommerce |
-| Backend | PHP, MySQL, WordPress APIs |
-| WordPress ecosystem | ACF, custom post types, WP_Query, hooks, plugin and theme integrations |
-| Builders and themes | Elementor Pro, Kadence, Gutenberg, WPBakery, Divi, Astra, Spectra, XStore |
-| Data and automation | Python, CSV processing, command-line tools |
-| Web operations | cPanel, FTP, DNS, SSL, Cloudflare, site migrations |
-| Quality practices | Debugging, regression testing, validation, technical documentation |
-
-Python and broader backend engineering are active areas of development. I distinguish tools I use in production from technologies I am currently deepening.
+- **Plugin development:** WordPress hooks, APIs, custom functionality, and integration boundaries.
+- **WooCommerce tooling:** catalog behavior, product data, filtering, and operational workflows.
+- **Backend development:** PHP, MySQL, REST APIs, and application structure.
+- **Data processing:** Python, CSV validation, transformation, and review workflows.
+- **Quality practices:** debugging, regression testing, validation, and technical documentation.
 
 ## Selected projects
 
 ### [WP Diagnostic Toolkit](https://github.com/marcorubino-dev/wp-diagnostic-toolkit)
 
-A modular WordPress plugin for inspecting site environment, plugins, themes, server configuration, filesystem capacity, HTTP/SSL behavior, and selected WooCommerce/multilingual integration signals.
+**WordPress plugin · Active development**
+
+A modular diagnostic plugin for inspecting WordPress environments, plugins, themes, server configuration, filesystem capacity, HTTP/SSL behavior, and selected WooCommerce and multilingual integration signals.
 
 - Separates diagnostic checks from the administration interface.
 - Uses structured diagnostic results with severity and supporting information.
 - Includes CLI regression tests and a PHP-version CI matrix.
-- **Status:** Active development. A diagnostic aid, not a comprehensive audit or monitoring product.
+- Designed as a diagnostic aid, not a comprehensive audit or monitoring product.
+
+### [Woo Dynamic Product Filters](https://github.com/marco-developer-24/woo-dynamic-product-filters)
+
+**WooCommerce plugin · Active development**
+
+A category-aware product filtering plugin focused on configuring relevant product attributes and presenting a manageable filtering experience for store administrators and customers.
+
+The project is under active development; consult the repository for its current scope and implementation status.
 
 ### [WooCommerce Catalog Toolkit](https://github.com/marco-developer-24/woocommerce-catalog-toolkit)
 
-A Python toolkit for validating supplier CSV files, comparing catalog data, identifying candidate new products, and preparing limited product selections for review.
+**Python application · Early development**
 
-- Performs local data validation and catalog comparison.
+A local toolkit for validating supplier CSV files, reviewing catalog data, and preparing candidate product selections.
+
+- Validates input files and reports data issues.
 - Supports category-based product selection with configurable limits.
 - Produces review-oriented outputs instead of writing directly to a WooCommerce store.
-- Includes a first local Streamlit interface.
-- **Status:** Early development. It does not connect to WooCommerce or perform imports.
+- Includes an initial local Streamlit interface.
+- Does not connect to WooCommerce or perform product imports.
 
 ### [WP Language Redirector](https://github.com/marco-developer-24/wp-language-redirector)
 
-A WordPress plugin for a specific multilingual integration using WP Multilang-compatible language selectors.
+**WordPress plugin · Published project**
+
+A plugin for a specific multilingual integration using WP Multilang-compatible language selectors.
 
 - Resolves destination URLs through manual mappings and available WP Multilang helpers.
 - Provides an administration screen for managing mappings.
 - Documents integration assumptions and known limitations.
-- **Status:** Published project for a specific integration. Review its compatibility requirements before production use.
 
-## Engineering approach
+Review its compatibility requirements before using it in a production environment.
 
-I use a repeatable process when investigating technical issues:
+## Engineering principles
 
-```text
-OBSERVE
-   ↓
-ISOLATE
-   ↓
-DIAGNOSE
-   ↓
-FIX
-   ↓
-VERIFY
-```
+I aim to build tools that are understandable, testable, and maintainable.
 
-The goal is not simply to make an error disappear. It is to understand what happened, make the smallest appropriate intervention, and verify that the expected behavior has been restored.
+- **Evidence over assumptions:** reproduce behavior and verify findings.
+- **Small, reviewable changes:** prefer focused interventions over unnecessary rewrites.
+- **Clear responsibilities:** keep components and diagnostic logic appropriately separated.
+- **Testable behavior:** cover expected outcomes and relevant failure cases.
+- **Honest documentation:** state current capabilities, scope, and limitations.
 
-I value:
+## Current development direction
 
-- Reproducible findings over assumptions.
-- Small, reviewable changes over unnecessary rewrites.
-- Clear separation of responsibilities.
-- Tests that cover expected behavior and failure cases.
-- Documentation that states both capabilities and limitations.
-
-## Current development focus
-
-I am strengthening the software engineering foundations behind my day-to-day web development work:
+I am strengthening the software engineering foundations behind my WordPress work:
 
 - Python application design and data processing.
 - Backend architecture and API integrations.
 - Automated testing and regression prevention.
 - Maintainable tooling for technical support and operational workflows.
 
-My long-term direction is backend-oriented software development, building on the practical experience I have gained in the WordPress ecosystem.
+My professional background and WordPress technical support work are presented on my [main GitHub profile](https://github.com/marcorubino-dev).
 
 ## Contact
 
+- **Professional profile:** [github.com/marcorubino-dev](https://github.com/marcorubino-dev)
 - **Website:** [marcodeveloper.online](https://marcodeveloper.online)
-- **GitHub:** [marco-developer-24](https://github.com/marco-developer-24)
 
 ---
 
-*Based in Córdoba, Argentina. Available for WordPress development, WooCommerce troubleshooting, and technical collaboration with agencies.*
+*Based in Córdoba, Argentina. Building and maintaining practical software for the WordPress ecosystem.*
